@@ -1,0 +1,57 @@
+.box {
+    /* width: 1920px; */
+    height: 80px;
+    padding: 24px 120px 27px 97px;
+    background-color: var(--black-two);
+    color: blue;
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    justify-items: center;
+    align-items: center;
+}
+img.logo {
+    /* width: 226px; */
+    height: 26px;
+    /* margin: 3px 687px 0 0; */
+    object-fit: contain;
+
+    /* background-color: #fff; */
+}
+
+a {
+    height: 11px;
+    margin: 10px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.14;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+}
+.introduction {
+    width: 111px;
+}
+.solution {
+    width: 73px;
+    /* margin: 10px 72px 8px 76px; */
+}
+
+.plan {
+    width: 78px;
+    /* margin: 10px 57px 8px 72px; */
+}
+.rectangle {
+    width: 1px;
+    height: 23px;
+    /* margin: 0 44px 6px 57px; */
+    background-color: var(--pinkish-grey-two);
+}
+.login {
+    /* width: 44px; */
+}
+.apply {
+    /* width: 155px; */
+}
