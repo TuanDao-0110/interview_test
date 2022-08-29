@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './pages/header/Header.jsx'
 import Banner from './pages/banner/Banner';
