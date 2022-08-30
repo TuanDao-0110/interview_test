@@ -8,7 +8,7 @@ export default function Product() {
       <p className={style.discription}>
         How to create mobile-optimized videos in minutes. Not a designer, every team makes a lot of videos Can be trimmed. Take the first{" "}
       </p>
-      <div>
+      <div >
         <div className={style.product}>
           {product.map((item, index) => {
             return (

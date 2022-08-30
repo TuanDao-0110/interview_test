@@ -22,10 +22,24 @@
     text-align: left;
     color: var(--black-three);
 }
+.detail {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .pumpkin {
-    width: 19px;
-    height: 16px;
-    margin: 29px 7px 7px 164px;
-    background-color: var(--pumpkin-orange);
-    border: 1px solid blue;
+   
+    color: var(--pumpkin-orange);
+}
+
+
+.pumpkin span { 
+    font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.19;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--brownish-grey);
 }
