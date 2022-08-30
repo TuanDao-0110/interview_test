@@ -1,0 +1,108 @@
+.happen_bg {
+    position: relative;
+    height: 100vh;
+}
+
+.happen_bg .header {
+    width: 50%;
+    margin: auto;
+}
+.happen_bg .header h2 {
+    margin: 0;
+    padding-top: 6rem;
+    font-size: 45px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: 4.5px;
+    color: var(--dark-brown);
+}
+
+.happen_bg .header p {
+    font-size: 16px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--dark-brown);
+    width: 80%;
+    margin: auto;
+    padding: 4rem 0;
+}
+.happen_bg .drink {
+    position: absolute;
+    width: 20vw;
+    height: 28vw;
+    left: -10vw;
+    top: 20vh;
+}
+.happen_bg .h_logo_black {
+    position: absolute;
+    top: 0;
+    left: 10vw;
+}
+.happen_bg .video {
+    position: absolute;
+    /* top: %; */
+    left: 50%;
+    transform: translate(-50%, 10%);
+    width: 65vw;
+    height: 40vh;
+}
+.happen_bg .h_logo_red {
+    position: absolute;
+    top: 60vh;
+    left: 12vh;
+}
+.happen_bg .heart {
+    position: absolute;
+    top: 10vh;
+    right: 8vw;
+}
+.happen_bg .w_logo {
+    position: absolute;
+    border: solid 3px var(--black-two);
+    background-color: var(--sun-yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vw;
+    width: 5vw;
+    top: 8vh;
+    right: 4vw;
+}
+
+.happen_bg .w_logo p {
+    font-size: 83px;
+    font-weight: 900;
+    font-stretch: normal;
+
+    line-height: 0.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--black-two);
+}
+
+.happen_bg .dot_logo {
+    position: absolute;
+    right: -8vw;
+    width: 16vw;
+}
+.happen_bg .girl_logo_right {
+    position: absolute;
+    right: -5vw;
+    top: 30vh;
+}
+.happen_bg .error_logo {
+    position: absolute;
+    top: 65vh;
+    left: 25vw;
+}
+.happen_bg .mouse_logo {
+    position: absolute;
+    top: 65vh;
+    left: 60vw;
+}

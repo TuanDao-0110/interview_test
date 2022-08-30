@@ -6,7 +6,7 @@ export default function brand_story() {
     <div className={style.brand_bg}>
       <div className={style.brand}>
         <h2>brand story</h2>
-        <p>
+        <p className={style.info}>
           모바일에 최적화된 비디오를 단 몇 분 만에 제작해보세요. 디자이너가 아니더라도, 모든 팀에서 다듬을 수 있습니다. 브랜드의 성공을 위한 첫 걸음을
           내딛어보세요. 비디오를 단 몇 분 만에 제작해보세요.
         </p>
@@ -14,9 +14,7 @@ export default function brand_story() {
       <div className={style.brand_detail}>
         <div className={style.line}></div>
         <div className={style.details}>
-          <div className={style.left}>
-            <h3>collaboration</h3>
-          </div>
+          <div className={style.left}></div>
           <div className={style.right}>
             <h3>what happened's brand story</h3>
             <p>
@@ -27,6 +25,26 @@ export default function brand_story() {
             <SeeMore></SeeMore>
           </div>
         </div>
+      </div>
+      <div className={style.book}>
+        <img src={require("./img/book.png")} alt="" />
+      </div>
+
+      <div className={style.flower}>
+        <img src={require("./img/flower.png")} alt="" />
+      </div>
+      <div className={style.calender}>
+        <img src={require("./img/calender.png")} alt="" />
+      </div>
+      <div className={style.white_form}>
+        <img src={require("./img/whiteform.png")} alt="" />
+      </div>
+
+      <div className={style.name_in}>
+        <img src={require("./img/namein.png")} alt="" />
+      </div>
+      <div className={style.plan}>
+        <img src={require("./img/plan.png")} alt="" />
       </div>
     </div>
   );

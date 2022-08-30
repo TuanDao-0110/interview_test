@@ -7,8 +7,8 @@ export default function List_Product() {
     for (let i = 0; i < 20; i++) {
       listProduct.push(
         <div className={style.product}>
-          <div style={{ width: "300px", height: "300px", background: `blue` }}>
-            <img src={require("./img/img-01.png")} alt="" width={"300px"} height={"300px"} />
+          <div>
+            <img src={require("./img/img-01.png")} alt="" width="100%" />
           </div>
 
           <div className={style.banner}>
@@ -31,7 +31,7 @@ export default function List_Product() {
     createListProduct();
   }, [listProduct]);
   return (
-    <div style={{marginBottom:'10vh'}}>
+    <div style={{ marginBottom: "10vh" }}>
       <div className={style.list_product_bg}>{createListProduct()}</div>
       <SeeMore></SeeMore>
     </div>
