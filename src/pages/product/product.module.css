@@ -1,14 +1,18 @@
 .product_bg {
     background: url("./sticker/bes-bg.png");
     background-size: cover;
-    background-position: 100%;
-    padding: 150px 175px 154px 176px;
+    background-position: center;
+    /* padding: 150px 175px 154px 176px; */
+    padding-bottom: 10rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .product {
     display: flex;
     justify-content: center;
-    margin-top: 10vh;
+    /* margin-top: 10vh; */
+    padding-top: 20rem;
 }
 
 .product_bg h2 {
@@ -16,18 +20,20 @@
     letter-spacing: 5px;
     text-align: center;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 5rem;
     font-stretch: normal;
     font-style: normal;
     margin: 0;
-    padding: 5vh 0;
+    padding: 1rem 0;
     /* margin: 0 29px 49px; */
-    height: 37px;
+    height: 3rem;
     color: var(--bright-orange);
 }
 .discription {
-    margin: 49px 7px 34px 12px;
-    font-size: 20px;
+    /* margin: 49px 7px 34px 12px; */
+    /* padding-bottom: 50rem; */
+    padding-top: 5rem;
+    font-size: 2rem;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -42,21 +48,21 @@
     background-image: url("./sticker/number_sticker.png");
     background-size: cover;
     text-align: center;
-    top: -50px;
+    top: -3rem;
     /* left: -50px; */
     z-index: 999;
-    width: 100px;
-    height: 100px;
+    width: 6rem;
+    height: 6rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
+    font-size: 2.2rem;
     font-weight: 800;
 }
 
 .box {
     display: flex;
-    padding: 7px 8px 6px 27px;
+    padding: 0.5rem 1rem;
     border: solid 3px var(--dark-maroon);
     background-color: #fff;
     justify-content: space-evenly;
@@ -69,7 +75,7 @@
 }
 
 .box p {
-    font-size: 20px;
+    font-size: 1.2rem;
     font-weight: 800;
     font-stretch: normal;
     font-style: normal;

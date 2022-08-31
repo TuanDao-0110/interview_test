@@ -1,17 +1,18 @@
 .box {
     /* width: 1920px; */
+
     height: 80px;
-    padding: 24px 120px 27px 97px;
+    /* padding: 24px 120px 27px 97px; */
+    padding: 1rem 2rem;
     background-color: var(--black-two);
     color: blue;
     display: grid;
     grid-template-columns: 1fr 8fr;
-    justify-items: center;
     align-items: center;
 }
 img.logo {
     /* width: 226px; */
-    height: 26px;
+    height: 2rem;
     /* margin: 3px 687px 0 0; */
     object-fit: contain;
 
@@ -19,10 +20,10 @@ img.logo {
 }
 
 a {
-    height: 11px;
-    margin: 10px;
+    height: 0.8rem;
+    margin: 0.8rem;
     font-family: Montserrat;
-    font-size: 14px;
+    font-size: 1.5rem;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -32,21 +33,19 @@ a {
     color: #fff;
 }
 .introduction {
-    width: 111px;
+    /* width: 111px; */
 }
 .solution {
-    width: 73px;
+    /* width: 73px; */
     /* margin: 10px 72px 8px 76px; */
 }
 
 .plan {
-    width: 78px;
+    /* width: 78px; */
     /* margin: 10px 57px 8px 72px; */
 }
 .rectangle {
-    width: 1px;
-    height: 23px;
-    /* margin: 0 44px 6px 57px; */
+    width: 0.1rem;
     background-color: var(--pinkish-grey-two);
 }
 .login {

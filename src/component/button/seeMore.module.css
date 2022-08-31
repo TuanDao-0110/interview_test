@@ -1,10 +1,11 @@
 .button {
     border: solid 1px var(--dark-maroon);
     background-color: #fff;
-    font-weight: 800;
+    font-weight: 700;
     padding: 0.5rem 1rem;
     text-transform: capitalize;
     text-align: center;
     line-height: 1.09;
     color: var(--black-three);
+    font-size: 2rem;
 }

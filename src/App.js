@@ -8,11 +8,13 @@ import Brand_Story from './pages/brand_story/Brand_story.jsx'
 import Issue from './pages/issue/Issue';
 import Happen from './pages/happen/Happen';
 import Footer from './pages/footer/Footer';
+import Happen_Banner from './pages/happen_banner/Happen_Banner';
 function App() {
   return (
     <div className="App">
       <Header />
       <Banner />
+      <Happen_Banner />
       <Product />
       <ListProduct />
       <Brand_Story />

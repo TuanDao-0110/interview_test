@@ -1,8 +1,8 @@
 .brand_bg {
     background-color: var(--cerulean);
     position: relative;
-    height: 50vh;
-    padding-bottom: 5rem;
+    /* height: 80vh; */
+    padding-bottom: 30rem;
 }
 .brand {
     margin-top: 1.5rem;
@@ -10,10 +10,11 @@
 .brand_detail {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 50vw;
+    /* width: 50vw; */
     margin: auto;
     z-index: 20;
     position: absolute;
+
     top: 50%;
     left: 50%;
     transform: translate(-50%, -30%);
@@ -32,7 +33,7 @@
 }
 .brand_bg h2 {
     padding-top: 6rem;
-    font-size: 45px;
+    font-size: 3rem;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
@@ -57,23 +58,26 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     /* width: 70%; */
-    margin: 0 auto 10rem;
+    /* margin: 0 auto ; */
 }
 
 .details .left {
     background: url("./img/collaboration.png") center no-repeat;
     background-size: cover;
     /* height: 35rem; */
-    height: 45rem;
+    /* height: 45rem; */
 }
 
 .details .right {
+    display: flex;
+    flex-direction: column;
     background: white;
     padding: 1.5rem;
     text-align: left;
-    align-items: center;
+    /* align-items: flex-start; */
+align-items: flex-start;
     justify-content: center;
-    place-items: center;
+    /* place-items: center; */
 }
 
 .details .right p {

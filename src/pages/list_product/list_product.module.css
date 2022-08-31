@@ -3,8 +3,8 @@
     grid-template-columns: repeat(5, 1fr);
     width: 80%;
     margin: 10vh auto 0;
-    column-gap: 18px;
-    row-gap: 18px;
+    column-gap: 1rem;
+    row-gap: 1rem;
 }
 .product {
     /* width: 300px; */
@@ -13,7 +13,7 @@
     /* background-color: var(--mango); */
 }
 .banner {
-    font-size: 18px;
+    font-size: 1.1rem;
     font-weight: 600;
     font-stretch: normal;
     font-style: normal;
@@ -22,17 +22,27 @@
     text-align: left;
     color: var(--black-three);
 }
+.banner p {
+    color: var(--black-three);
+    font-size: 2rem;
+    margin: 0;
+    padding: 0.5rem 0;
+}
 .detail {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.pumpkin {
+.detail p { 
+    font-size: 1.5rem;
+}
+.pumpkin i {
+    font-size: 1.5rem;
     color: var(--pumpkin-orange);
 }
 
 .pumpkin span {
-    font-size: 16px;
+    font-size: 2rem;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
