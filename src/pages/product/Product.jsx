@@ -8,11 +8,11 @@ export default function Product() {
       <p className={style.discription}>
         How to create mobile-optimized videos in minutes. Not a designer, every team makes a lot of videos Can be trimmed. Take the first{" "}
       </p>
-      <div >
+      < >
         <div className={style.product}>
           {product.map((item, index) => {
             return (
-              <div key={index} style={{ position: "relative" }}>
+              <div key={index} style={{ position: "relative" }} className={style.product_item}>
                 <img src={require(`./sticker/product_${item}.png`)} alt="" />
                 <div className={style.product_number}> {item}</div>
                 <div className={style.box}>
@@ -23,7 +23,7 @@ export default function Product() {
             );
           })}
         </div>
-      </div>
+      </>
     </div>
   );
 }

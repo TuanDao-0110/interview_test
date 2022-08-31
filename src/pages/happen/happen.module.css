@@ -1,6 +1,6 @@
 .happen_bg {
     position: relative;
-    height: 80vh;
+    height: 100vh;
     overflow: hidden;
 }
 
@@ -99,11 +99,54 @@
 }
 .happen_bg .error_logo {
     position: absolute;
-    top: 65vh;
+    top: 80vh;
     left: 25vw;
 }
 .happen_bg .mouse_logo {
     position: absolute;
-    top: 65vh;
+    top: 85vh;
     left: 60vw;
+}
+@media screen and (max-width: 1600px) {
+    .happen_bg .girl_logo_right {
+        width: 20rem;
+        top: 40vh;
+    }
+    .happen_bg .header h2 {
+        padding: 0;
+        margin: 0;
+    }
+    .happen_bg .header p {
+        padding: 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+     .happen_bg .video { 
+ width: 65vw;
+    height: 45vh;
+      transform: translate(-47%, 10%);
+    }
+    .happen_bg .error_logo {
+   
+    top: 70vh;
+    left: 25vw;
+}
+.happen_bg .mouse_logo {
+    top: 70vh;
+    left: 60vw;
+}
+}
+
+@media screen and (max-width: 1000px) {
+    .happen_bg {
+        height: 80vh;
+    }
+    .drink,.h_logo_black,.h_logo_red,.heart,.dot_logo,.girl_logo_right,.error_logo,.mouse_logo,.happen_bg .w_logo{
+        display: none;
+    }
+  .happen_bg .video { 
+ width: 85vw;
+    height: 50vh;
+      transform: translate(-47%, 10%);
+    }
 }

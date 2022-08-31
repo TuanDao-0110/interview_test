@@ -42,7 +42,7 @@
     color: var(--sun-yellow);
 }
 .brand_bg .info {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 300;
     font-stretch: normal;
     font-style: normal;
@@ -75,7 +75,7 @@
     padding: 1.5rem;
     text-align: left;
     /* align-items: flex-start; */
-align-items: flex-start;
+    align-items: flex-start;
     justify-content: center;
     /* place-items: center; */
 }
@@ -136,4 +136,61 @@ align-items: flex-start;
     position: absolute;
     right: 1rem;
     top: 7rem;
+}
+
+@media screen and (max-width: 1600px) {
+    .brand_bg h2 {
+        font-size: 2rem;
+        padding: 0.5rem 0 0 0;
+    }
+    .brand_bg .info {
+        font-size: 1rem;
+    }
+    .details .right {
+        padding: 1rem;
+    }
+    .details .right p {
+        font-size: 0.8rem;
+    }
+    .details .right h3 {
+        font-size: 1.2rem;
+        line-height: 2;
+    }
+    .name_in img {
+        width: 5rem;
+    }
+    .flower {
+        bottom: 12rem;
+        right: 1rem;
+    }
+    .flower img {
+        width: 12rem;
+    }
+    .calender {
+        bottom: 6rem;
+    }
+    .calender img {
+        width: 14rem;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .brand_detail {
+        width: 80%;
+        margin: auto;
+    }
+    .details .right {
+        padding: 1rem;
+    }
+    .details .right p {
+        font-size: 0.8rem;
+    }
+    .book,
+    .flower,
+    .calender,
+    .white_form,
+    .name_in,
+    .plan {
+        display: none;
+    }
 }

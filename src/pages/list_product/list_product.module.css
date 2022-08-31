@@ -33,7 +33,7 @@
     align-items: center;
     justify-content: space-between;
 }
-.detail p { 
+.detail p {
     font-size: 1.5rem;
 }
 .pumpkin i {
@@ -50,4 +50,21 @@
     letter-spacing: normal;
     text-align: left;
     color: var(--brownish-grey);
+}
+
+@media screen and (max-width: 1600px) {
+    .list_product_bg {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .banner p {
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .list_product_bg {
+        grid-template-columns: repeat(2, 1fr);
+    }
+     .banner p {
+        font-size: 1rem;
+    }
 }
