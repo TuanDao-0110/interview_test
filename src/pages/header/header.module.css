@@ -9,6 +9,11 @@
     display: grid;
     grid-template-columns: 1fr 8fr;
     align-items: center;
+    overflow: hidden;
+}
+.right {
+    /* justify-content: end; */
+    justify-self: end;
 }
 img.logo {
     /* width: 226px; */
@@ -53,4 +58,16 @@ a {
 }
 .apply {
     /* width: 155px; */
+}
+@media screen and (max-width: 1000px) {
+    .left {
+        display: none;
+    }
+    .box {
+        grid-template-columns: 1fr;
+    }
+    .right {
+        /* grid-column: 1/ 3; */
+        justify-self: center;
+    }
 }
